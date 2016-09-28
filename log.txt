@@ -1,0 +1,619 @@
+commit 7c7bc1d50ae34f692dd32b1fbebeb41ca1acbc43
+Merge: 23f1ee0 ff7a5a4
+Author: dkj2972 <dkj2972@cs.rit.edu>
+Date:   Tue May 10 23:40:11 2016 -0400
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 23f1ee0f7f36bad2374b03ae1aa98fb1ce9bc56a
+Author: dkj2972 <dkj2972@cs.rit.edu>
+Date:   Tue May 10 23:39:55 2016 -0400
+
+    Fixed deep copy LaserModel so it properly creates the safe copy.
+
+commit ff7a5a47a1d230d918decfdff299509f0c7aeff4
+Merge: 03d2c2e 48dfd8c
+Author: mej4349 <mej4349@g.rit.edu>
+Date:   Tue May 10 20:51:25 2016 -0400
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 03d2c2edf0da7b99c44a7f3aee489f3efb5022b4
+Author: mej4349 <mej4349@g.rit.edu>
+Date:   Tue May 10 20:51:07 2016 -0400
+
+    Comments = made pewpew
+
+commit 48dfd8c990a08e7002ec1ff92d95e966af2edb11
+Author: dkj2972 <dkj2972@cs.rit.edu>
+Date:   Tue May 10 20:12:25 2016 -0400
+
+    Last minute touches.
+
+commit ba7fa241bbf1149c38925a024254bc1e79d7bfdf
+Author: mej4349 <mej4349@g.rit.edu>
+Date:   Tue May 10 19:56:26 2016 -0400
+
+    I'm pretty sure load will work on mac
+
+commit 10c327a25045bd201f347068be163180783a0fcc
+Merge: 74132ca 8828aa2
+Author: mej4349 <mej4349@g.rit.edu>
+Date:   Tue May 10 19:29:47 2016 -0400
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 74132ca9d59b0ff6c5898ec51eca8b3d6d4a8b41
+Author: mej4349 <mej4349@g.rit.edu>
+Date:   Tue May 10 19:29:29 2016 -0400
+
+    Maybe load will work on mac
+
+commit 8828aa2269ba254a17b3272f693134243db405a9
+Merge: 9427e14 502dc55
+Author: dkj2972 <dkj2972@cs.rit.edu>
+Date:   Tue May 10 19:23:13 2016 -0400
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 9427e14f458823874cc9c5392a7cb0336163a7a2
+Author: dkj2972 <dkj2972@cs.rit.edu>
+Date:   Tue May 10 19:22:59 2016 -0400
+
+    Hint prints if safe is fully verified.
+
+commit 502dc555867bdf411949e5cfa72fc628bfbc9836
+Author: mej4349 <mej4349@g.rit.edu>
+Date:   Tue May 10 19:18:45 2016 -0400
+
+    I think we're almost done part 2 tests is working
+
+commit 972e6a4bfd5fd78f5768256c8655dee762490fc4
+Author: mej4349 <mej4349@g.rit.edu>
+Date:   Tue May 10 19:07:56 2016 -0400
+
+    I think we're almost done
+
+commit d48babbb39c316dd6944b16c53e26dcfff1e3018
+Author: mej4349 <mej4349@g.rit.edu>
+Date:   Tue May 10 18:44:54 2016 -0400
+
+    little bug fixes
+
+commit 2fa34ca31e334788e5aadf113f955f54b432fc37
+Author: dkj2972 <dkj2972@cs.rit.edu>
+Date:   Tue May 10 17:46:18 2016 -0400
+
+    Hint should be almost done. Testing.
+
+commit bb394a2107bb694b3e016bdf146d417596422f4e
+Merge: 3302a60 98947a2
+Author: dkj2972 <dkj2972@cs.rit.edu>
+Date:   Tue May 10 17:38:51 2016 -0400
+
+    Merge remote-tracking branch 'origin/master'
+    
+    # Conflicts:
+    #	src/gui/ControllerGUI.java
+
+commit 3302a60587a9fdab00b65f1dee2a0d7f72f333e2
+Author: dkj2972 <dkj2972@cs.rit.edu>
+Date:   Tue May 10 17:35:49 2016 -0400
+
+    Hint button gives add message with coordinates.
+
+commit 98947a2107cfdd9a0b433df6e3a35ada86ce5cca
+Author: mej4349 <mej4349@g.rit.edu>
+Date:   Tue May 10 17:32:58 2016 -0400
+
+    little bug fixes
+
+commit 3f8f3d9b41362aed5ba915de36f79fe9906d43cf
+Author: mej4349 <mej4349@g.rit.edu>
+Date:   Tue May 10 15:04:44 2016 -0400
+
+    Load seems to work properly, as does hint. Only thing left is the error tinting.
+
+commit eabcda39aac93ea67cb2e9902c7ef32d37c96516
+Author: dkj2972 <dkj2972@cs.rit.edu>
+Date:   Tue May 10 13:30:35 2016 -0400
+
+    Hint button gets next laser. Need to update GUI message.
+
+commit b1cf7d3d3aa0beffcfd28bd1a74b8e15ce0c0a6c
+Merge: ea83e03 be6b339
+Author: mej4349 <mej4349@g.rit.edu>
+Date:   Tue May 10 05:11:16 2016 -0400
+
+    Merge remote-tracking branch 'origin/master'
+
+commit ea83e03a3f4952b4648396778181d0bef0a9de2a
+Author: mej4349 <mej4349@g.rit.edu>
+Date:   Tue May 10 05:10:54 2016 -0400
+
+    changed the pruning a little, it is able to solve the 8x8  in about 52 seconds. Will try to think of other ways to improve it
+
+commit be6b339c0a098907ba728dd25fece60b8453f940
+Author: dkj2972 <dkj2972@cs.rit.edu>
+Date:   Tue May 10 02:54:59 2016 -0400
+
+    Just committing before adjusting a few things.
+
+commit 64e55bdd8dc450d4a04f6d74deff12316ea642bc
+Author: dkj2972 <dkj2972@cs.rit.edu>
+Date:   Tue May 10 02:16:25 2016 -0400
+
+    solveWithPath complete. May need to adjust isValid and verify.
+
+commit f1a2d6e83eaabb25383316e40d4326dfe9e5d5f2
+Author: mej4349 <mej4349@g.rit.edu>
+Date:   Tue May 10 00:10:35 2016 -0400
+
+    Made the gui controller class
+
+commit 60cd63b0e087a5c23e2d940d3ded9d174c6c9c6c
+Author: mej4349 <mej4349@g.rit.edu>
+Date:   Mon May 9 20:29:38 2016 -0400
+
+    Solve works, now gotta make hint work
+
+commit 64efc05fd8581ba90998d476103b3811b9cc2572
+Merge: 300b80d 9874fdd
+Author: mej4349 <mej4349@g.rit.edu>
+Date:   Mon May 9 16:56:56 2016 -0400
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 9874fddc3160bbf93db36072fcc46de8ae67d5fb
+Author: dkj2972 <dkj2972@cs.rit.edu>
+Date:   Mon May 9 03:19:32 2016 -0400
+
+    Divided LasersPTUIoriginal into MVC design. PTUI works from main.
+
+commit d92562b5dbf471bd4d04807090d11fa73eb073ee
+Author: dkj2972 <dkj2972@cs.rit.edu>
+Date:   Mon May 9 02:33:13 2016 -0400
+
+    SafeConfig FileNotFoundException handled. PTUI work in progress.
+
+commit 4a36d971cdfaf88fa21878f55675afb21112ab8e
+Author: dkj2972 <dkj2972@cs.rit.edu>
+Date:   Mon May 9 01:20:32 2016 -0400
+
+    SafeConfig finished for naive pruning and backtracking. Solves 4x4, 7x7, and 8x8. Really slow.
+
+commit 3f366e4d61848299ec1dad0ee5f6091579668b36
+Author: dkj2972 <dkj2972@cs.rit.edu>
+Date:   Mon May 9 00:38:00 2016 -0400
+
+    Fixed checkLaserValidity to search until beam his a pillar or laser.
+
+commit b00f5df5ba13bf7447ec204b7824945ac1f2875e
+Author: dkj2972 <dkj2972@cs.rit.edu>
+Date:   Mon May 9 00:11:08 2016 -0400
+
+    Baseline for SafeConfig should be done. Verify has problems finding other Lasers in row.
+
+commit f375c9255a6f402b0985d65155f1023b60510ae5
+Author: dkj2972 <dkj2972@cs.rit.edu>
+Date:   Sun May 8 21:13:35 2016 -0400
+
+    Moved Block into the model package.
+
+commit 6645d115e67eefe75d6180aefc1730cbb9576830
+Author: dkj2972 <dkj2972@cs.rit.edu>
+Date:   Sun May 8 18:31:02 2016 -0400
+
+    First attempt at getSuccessors() in SafeConfig completed.
+
+commit 300b80d47e324e10d2df1fda8f57870487d42158
+Merge: 8ef45c6 0946aaf
+Author: mej4349 <mej4349@g.rit.edu>
+Date:   Sun May 8 17:31:42 2016 -0400
+
+    Merge remote-tracking branch 'origin/master'
+    
+    # Conflicts:
+    #	src/backtracking/SafeConfig.java
+
+commit 8ef45c6c7533425b2e03abee8359bd294a5f522d
+Author: mej4349 <mej4349@g.rit.edu>
+Date:   Sun May 8 17:30:15 2016 -0400
+
+    Little updates pt 2 - reset functional with load now
+
+commit 0946aaf78726c8e1b3f0dae2e7cb506500ee4464
+Author: dkj2972 <dkj2972@cs.rit.edu>
+Date:   Sun May 8 17:00:59 2016 -0400
+
+    Added constructor to LaserModel and constructors to SafeConfig.
+
+commit 265c6896c26363fbf30cff90ed06b9deaf3edff2
+Author: mej4349 <mej4349@g.rit.edu>
+Date:   Sun May 8 16:22:27 2016 -0400
+
+    Little updates
+
+commit 38a1bea11f2e49faf743532b7b7c7b6d814f569e
+Author: mej4349 <mej4349@g.rit.edu>
+Date:   Sun May 8 16:09:50 2016 -0400
+
+    Load now works, maybe solve with path does too
+
+commit 60948481df1df8870cfaec5df058681cff8c121c
+Author: mej4349 <mej4349@g.rit.edu>
+Date:   Sun May 8 15:20:45 2016 -0400
+
+    Switched out safe class to the model class
+
+commit 5a446803f7855a673bdbd11af4492ac4240b30d0
+Author: mej4349 <mej4349@g.rit.edu>
+Date:   Sun May 8 15:02:42 2016 -0400
+
+    GUI almost complete
+    commented out load
+
+commit c9f3ed80029d2605c3816d70dfff8f917a3397ae
+Author: mej4349 <mej4349@g.rit.edu>
+Date:   Sun May 8 14:59:24 2016 -0400
+
+    GUI almost complete
+    load causing errors, working on it
+
+commit 2179c6320711f43a1ee6f1caa5b00102b0566c62
+Author: mej4349 <mej4349@g.rit.edu>
+Date:   Sun May 8 14:22:53 2016 -0400
+
+    testing
+
+commit 659ba3894e82c82baa0f0cd245c86e1f2a590120
+Author: mej4349 <mej4349@g.rit.edu>
+Date:   Sat May 7 10:26:32 2016 -0400
+
+    testing
+
+commit 9ffb5fd057e2f01b2933c4ad0498fe40205d174c
+Author: mej4349 <mej4349@g.rit.edu>
+Date:   Fri May 6 19:20:57 2016 -0400
+
+    testing
+
+commit 6a1618b2174e0d117bb4a212ffbcad01e9268299
+Author: dkj2972 <dkj2972@cs.rit.edu>
+Date:   Fri May 6 19:01:34 2016 -0400
+
+    Test commit. Added author tags to LasersModel
+
+commit 60eb7b54f460c2adb1bced49ae83bf5a4f81aae1
+Author: mej4349 <mej4349@g.rit.edu>
+Date:   Fri May 6 18:51:47 2016 -0400
+
+    testing
+
+commit b20056ba67240fb333b72bcd034e7ce7292b4cd0
+Author: mej4349 <mej4349@g.rit.edu>
+Date:   Fri May 6 18:42:53 2016 -0400
+
+    Combining our code and the given code
+
+commit 53f7f89b66a5d2b3997beb1205dba0ec272db262
+Author: mej4349 <mej4349@g.rit.edu>
+Date:   Fri May 6 18:39:56 2016 -0400
+
+    Combining our code and the given code
+
+commit 88e9181677e3a79e2007c49838871f2a41098ff3
+Author: mej4349 <mej4349@g.rit.edu>
+Date:   Thu May 5 19:44:58 2016 -0400
+
+    Combining our code and the given code
+
+commit 3d8d4d3b30c1f2cc7fe829f5dbae61cc454666df
+Author: mej4349 <mej4349@g.rit.edu>
+Date:   Thu Apr 14 14:39:39 2016 -0400
+
+    File inpur prints fix again
+
+commit 260399816d1e00e043cfbd7f8717ba91c1e4931d
+Author: mej4349 <mej4349@g.rit.edu>
+Date:   Thu Apr 14 14:36:07 2016 -0400
+
+    File inpur prints fix
+
+commit b5d16f41505bcc965d1a31a32213b8f9bf622095
+Author: mej4349 <mej4349@g.rit.edu>
+Date:   Thu Apr 14 14:23:53 2016 -0400
+
+    Verify output fix
+
+commit f5d79acb56307070885255589aaab4ba5f23aca8
+Author: dkj2972 <dkj2972@cs.rit.edu>
+Date:   Thu Apr 14 14:19:57 2016 -0400
+
+    Fixed colon problems in add
+
+commit 36db833d1512020afc7d42f8c6a887c6be344c7a
+Author: dkj2972 <dkj2972@cs.rit.edu>
+Date:   Thu Apr 14 14:19:06 2016 -0400
+
+    Added ending parentheses to remove message.
+
+commit eee67784860f963f3e5ab793eb163bbec67302a7
+Merge: a7fc4ce 89ec17d
+Author: dkj2972 <dkj2972@cs.rit.edu>
+Date:   Thu Apr 14 14:14:23 2016 -0400
+
+    Merge remote-tracking branch 'origin/master'
+
+commit a7fc4ce3edcac31bcb7b2716b20d2a4fbff396ab
+Author: dkj2972 <dkj2972@cs.rit.edu>
+Date:   Thu Apr 14 14:14:01 2016 -0400
+
+    Fixed add messages to include  a colon.
+
+commit 89ec17d51290a257c4667e4ffce7ef5083814491
+Author: mej4349 <mej4349@g.rit.edu>
+Date:   Thu Apr 14 14:09:07 2016 -0400
+
+    trying to fi our display part1
+
+commit 6d5c00881abc472fae434cd8ccef2ef8e78aa317
+Author: mej4349 <mej4349@g.rit.edu>
+Date:   Thu Apr 14 13:42:38 2016 -0400
+
+    DONE
+
+commit e931d4067960dba513314f464c2217a3cffe4565
+Author: dkj2972 <dkj2972@cs.rit.edu>
+Date:   Thu Apr 14 13:41:20 2016 -0400
+
+    Fixed Javadoc for Safe to include authors
+
+commit a16592206f35a537085d861ae4cd9491cf2b6555
+Author: mej4349 <mej4349@g.rit.edu>
+Date:   Thu Apr 14 13:10:28 2016 -0400
+
+    Just cleaning it up a bit
+
+commit 646768b39fcd796c2cc8e1cd62b2d9f614eedf9d
+Merge: df6dce7 4049e25
+Author: mej4349 <mej4349@g.rit.edu>
+Date:   Thu Apr 14 10:51:09 2016 -0400
+
+    Merge remote-tracking branch 'origin/master'
+    
+    # Conflicts:
+    #	src/LasersPTUI.java
+
+commit df6dce74db5a729d47d43e0d44d6d5269a12a6af
+Author: mej4349 <mej4349@g.rit.edu>
+Date:   Thu Apr 14 10:49:03 2016 -0400
+
+    Just cleaning it up a bit
+
+commit 4049e255788c67226bc60e58cfd2b85b792c5b5a
+Author: dkj2972 <dkj2972@cs.rit.edu>
+Date:   Thu Apr 14 04:11:14 2016 -0400
+
+    Usage message printed if invalid number of arguments
+
+commit 61c9b82e0583bc0025c7dc9b41b913ef73e3ae72
+Author: dkj2972 <dkj2972@cs.rit.edu>
+Date:   Thu Apr 14 03:17:19 2016 -0400
+
+    Moved print statements into verify.
+
+commit 21679ff887b49df2ffbd54dee2d7605b06ff692a
+Author: dkj2972 <dkj2972@cs.rit.edu>
+Date:   Thu Apr 14 03:02:10 2016 -0400
+
+    UI designed for additional commands file input.
+
+commit a1cd5704e7110f8c313f0965a10445d9e29b1713
+Author: dkj2972 <dkj2972@cs.rit.edu>
+Date:   Thu Apr 14 01:44:25 2016 -0400
+
+    Reformatted main UI for reprompting and new error messages.
+
+commit 171c04809fccdea9b9db6b2b2e491466c3eb62b2
+Author: dkj2972 <dkj2972@cs.rit.edu>
+Date:   Thu Apr 14 00:17:43 2016 -0400
+
+    Edited user interface to read single character or string commands.
+
+commit f04a5be83feac58ed8cda724360d66883cd6087c
+Author: dkj2972 <dkj2972@cs.rit.edu>
+Date:   Thu Apr 14 00:11:19 2016 -0400
+
+    Updated basic structure of user interface.
+
+commit b82deaf11855300226dca8788f257dbe908e3e34
+Author: mej4349 <mej4349@g.rit.edu>
+Date:   Wed Apr 13 23:17:26 2016 -0400
+
+    I think everything's done :D + bug fixes
+
+commit f92f485c825ac181671c61996b6e1b799b47ef7c
+Merge: 6019b6c 29b1e0e
+Author: mej4349 <mej4349@g.rit.edu>
+Date:   Wed Apr 13 23:01:42 2016 -0400
+
+    Merge remote-tracking branch 'origin/master'
+    
+    # Conflicts:
+    #	src/LasersPTUI.java
+
+commit 6019b6c0209b817119b93d6ff53f302633c7196f
+Author: mej4349 <mej4349@g.rit.edu>
+Date:   Wed Apr 13 23:00:39 2016 -0400
+
+    I think everything's done :D
+
+commit 29b1e0e937601dbad9b2cb81d09cbe9878a2bd42
+Author: dkj2972 <dkj2972@cs.rit.edu>
+Date:   Wed Apr 13 22:54:45 2016 -0400
+
+    Fixed to_string output for rows and columns
+
+commit b4497b98bac317943b8498a8316cef30940c19ba
+Author: mej4349 <mej4349@g.rit.edu>
+Date:   Wed Apr 13 22:44:49 2016 -0400
+
+    I think everything's done :D
+
+commit 88727f8cf80e3c06119aeb5a5b1a2ace567c8292
+Author: mej4349 <mej4349@g.rit.edu>
+Date:   Wed Apr 13 21:53:03 2016 -0400
+
+    I think everything's done :D
+
+commit f1589e427522167ad13a25416c5da9da2fb65e5c
+Author: mej4349 <mej4349@g.rit.edu>
+Date:   Wed Apr 13 21:25:57 2016 -0400
+
+    Restructured add and remove, as well as the way that the safe is stored, (It's now stored as a grid of block objects, which should help efficiency because of their numOfBeams, which makes it so one doesn't have to check for other laser's beams when removing lasers)
+
+commit 5ee055bb8a406a530063311c823d5446398ad0aa
+Author: dkj2972 <dkj2972@cs.rit.edu>
+Date:   Wed Apr 13 13:24:22 2016 -0400
+
+    Rearranged methods in Safe for more sensical arrangement
+
+commit 1ba4cde084ab8383c0272293bbe5ea5c30c74c9c
+Author: dkj2972 <dkj2972@cs.rit.edu>
+Date:   Wed Apr 13 13:19:40 2016 -0400
+
+    Made Safe class for Safe object.
+
+commit 46fd8458a36b8544ae7bc4ab575bb0ab138984db
+Author: dkj2972 <dkj2972@cs.rit.edu>
+Date:   Wed Apr 13 05:04:11 2016 -0400
+
+    Remove method completed.
+
+commit 6daa79e0d2b0c56b8fc9536130d90dc3396b54b8
+Author: dkj2972 <dkj2972@cs.rit.edu>
+Date:   Wed Apr 13 03:24:18 2016 -0400
+
+    Add method completed. Slight edits made to constructor.
+
+commit 4828b9479a9d2247f783df151e5a5258a222ee08
+Author: dkj2972 <dkj2972@cs.rit.edu>
+Date:   Wed Apr 13 01:58:14 2016 -0400
+
+    Fixed constructor to not include spaces in safe. Verified to_string works.
+
+commit 56063ebf3a482caf7d56be46bb4a08aee959a018
+Author: dkj2972 <dkj2972@cs.rit.edu>
+Date:   Tue Apr 12 20:22:33 2016 -0400
+
+    Checking out for now. Javadoc for add complete
+
+commit e428fbe81d7a9da75132a231128660d01fde3996
+Merge: bfaa55f 0a2c446
+Author: mej4349 <mej4349@g.rit.edu>
+Date:   Tue Apr 12 20:14:50 2016 -0400
+
+    Merge remote-tracking branch 'origin/master'
+    
+    # Conflicts:
+    #	src/LasersPTUI.java
+
+commit bfaa55f59a44647c3f81e926a9fcb22000890655
+Author: mej4349 <mej4349@g.rit.edu>
+Date:   Tue Apr 12 20:12:48 2016 -0400
+
+    File scanner done
+
+commit 0a2c44648c985fbc5fafc212796027f090725598
+Author: dkj2972 <dkj2972@cs.rit.edu>
+Date:   Tue Apr 12 20:12:26 2016 -0400
+
+    Wrote out Javadocs for verify, remove, quit, and help
+
+commit a3d53ff828229babf098463bb72f9e19b83ce2c9
+Author: dkj2972 <dkj2972@cs.rit.edu>
+Date:   Tue Apr 12 19:53:51 2016 -0400
+
+    Did work on the to_string method. Needs testing to verify.
+
+commit 07df33f7c2ad0d7682f911d2ea448f92093b0291
+Author: mej4349 <mej4349@g.rit.edu>
+Date:   Tue Apr 12 19:22:49 2016 -0400
+
+    Started working on everything
+
+commit b92065030692b1eb2a09b2b552d0422925855c53
+Merge: c9d5d01 012022a
+Author: dkj2972 <dkj2972@cs.rit.edu>
+Date:   Fri Apr 8 11:50:04 2016 -0400
+
+    Merge remote-tracking branch 'origin/master'
+
+commit c9d5d01614d7d6ad780ee2eb942f170c8aef9350
+Author: dkj2972 <dkj2972@cs.rit.edu>
+Date:   Fri Apr 8 11:49:28 2016 -0400
+
+    Added a comment for the constant variables
+
+commit 012022a663a68cfbca00ce839dab63b39282adc2
+Merge: 115ce45 e882200
+Author: mej4349 <mej4349@g.rit.edu>
+Date:   Fri Apr 8 11:44:34 2016 -0400
+
+    Merge remote-tracking branch 'origin/master'
+    
+    # Conflicts:
+    #	src/LasersPTUI.java
+
+commit 115ce45f1043ecafe7f6e7d53d2152f25d57a750
+Author: mej4349 <mej4349@g.rit.edu>
+Date:   Fri Apr 8 11:42:30 2016 -0400
+
+    Bare project + a little
+
+commit e88220057920a4209efe806cddd772dc8e9516b3
+Author: dkj2972 <dkj2972@cs.rit.edu>
+Date:   Fri Apr 8 11:42:23 2016 -0400
+
+    Added constant variables and constructor
+
+commit c63b9c8b0f03b62628adbf867d23ec0c6f48a4fe
+Author: mej4349 <mej4349@g.rit.edu>
+Date:   Fri Apr 8 11:30:02 2016 -0400
+
+    Bare project
+
+commit 665807b38ec56f89a7cc4aab3ade8bff1e2e0ece
+Author: mej4349 <mej4349@g.rit.edu>
+Date:   Fri Apr 8 11:18:28 2016 -0400
+
+    Initial revision-1.1
+
+commit 3f3b932adbfccdd35cf9f454f8699320c2737177
+Merge: 075cca5 11ea189
+Author: mej4349 <mej4349@g.rit.edu>
+Date:   Fri Apr 8 11:17:02 2016 -0400
+
+    Merge remote-tracking branch 'origin/master'
+    
+    # Conflicts:
+    #	src/LasersPTUI.java
+
+commit 075cca509a0415fd0c010e0a16761bce13056dd0
+Author: mej4349 <mej4349@g.rit.edu>
+Date:   Fri Apr 8 11:02:30 2016 -0400
+
+    Initial revision-1
+
+commit da76668e2317144ea996149181bbb1d05f88faf1
+Author: mej4349 <mej4349@g.rit.edu>
+Date:   Fri Apr 8 11:01:25 2016 -0400
+
+    Initial revision
+
+commit 11ea189a075145c262c371deb78d6b4fae3ddb33
+Author: dkj2972 <dkj2972@cs.rit.edu>
+Date:   Thu Apr 7 12:46:27 2016 -0400
+
+    Initial revision
